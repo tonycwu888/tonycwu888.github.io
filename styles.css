@@ -1,3 +1,90 @@
+
+article.blue {
+  color: blue;
+}
+.italic {
+  font-style: italic;
+  font-family: sans-serif;
+}
+.bold {
+  font-weight: bold;
+}
+.purple  {
+  color: purple;
+}
+
+a:link {color: blue}
+a:visited {color: black}
+a:hover {color: red}
+a:active {color: orange}
+
+p#about_us {
+   letter-spacing: 1em;
+  }
+
+img#moving_limo  {
+  border: 3px solid blue;
+  margin: 40px auto 40px;
+}
+
+header  {
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 2px solid blue;
+  box-shadow: 10px 10px;
+}
+
 body {
   background-color:pink;
+  max-width: 960px;
+  min-width: 400px;
+}
+nav {
+  position: fixed;
+  padding: 20px 15px;
+  margin-top: 50px;
+  width: 20%;
+  min-width: 100px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+main {
+  margin-left: 15%;
+  width: 65%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+article#art1 {
+  background-image: url(ggb.jpg);
+  border: 5px solid black;
+  color: white;
+  padding: 10px;
+}
+
+article#art2 {
+  font: italic small-caps 15px times;
+}
+
+ul li {
+  list-style-type: square;
+  border: 1px solid green;
+  max-width: 250px
+}
+
+input[type = "text"] {
+  color: red;
+  font-style: italic;
+}
+
+@media (max-width: 400px)  {
+    nav  {
+      background-color: lightblue;
+    }
+}
+
+footer {
+  margin: 20px;
+  text-align: center;
 }

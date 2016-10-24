@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Tony's private sedan service</title>
-    <nav>
-      <a href="http://www.limos.com/limo-price-guide">Compare prices</a> |
-      <a href="fleet.html">Our fleet</a> |
-      <a href="mailto:tonycwu888@gmail.com">Contact us</a>
-    </nav>
+
   </head>
-    <body>
+  <body>
+      <nav id="navi">
+        <a href="index.html">Home </a><br>
+        <a href="http://www.limos.com/limo-price-guide">Compare prices</a> <br>
+        <a href="fleet.html">Our fleet </a> <br>
+        <a href="mailto:tonycwu888@gmail.com">Contact us </a> <br>
+      </nav>
 
-
-      <img src="limo_ani.gif" alt="moving car">
+<main>
+      <img id="moving_limo" src="limo_ani.gif" alt="moving car">
   <header>
       <h1>Tony's private sedan service</h1>
       <h3>Servicing the greater Bay Area</h3>
-      <p>(Honest and reliable with all inclusive pricing so you know exactly what you'll be paying for every trip.  Up front and now hidden charges!)</p>
+      <p>Honest and reliable with all inclusive pricing so you know exactly what you'll be paying for every trip.  Up front and now hidden charges!  When we send you a quote, "WYSIWYG".  Our drivers are outstanding in every ways, curteous, safe and professionally attired.</p>
   </header>
 
 
-<article>
+<article id="art1">
   <h2>What do we do?</h2>
-  <p>We provide private car service for professionals and their families with reliable transportaion.  We specialize in advance bookings to or from airports.  Our reliable and safe drivers will also be happy to assist in tranporting you to your meeting or just a night out about town. </p>
+  <p id="about_us">We provide private car service for professionals and their families with reliable transportaion.  We specialize in advance bookings to or from airports.  Our reliable and safe drivers will also be happy to assist in tranporting you to your meeting or just a night out about town. </p>
 </article>
 
 
-<article>
+<article id="art2" class="blue">
   <h3>Check out <a href="http://www.limos.com">Limo.com</a> </h3><h4><em>-bad website-</em></h4>
   <p>Their website doesn't even work.  When I click into their "Airport and Transfer Service" tab, it brings me to a page for you to fill out contact information.  When inside this page, the top navigation links are all broken.  This is a poorly designed site because they didn't seem to have thought it all through.  It's not user friendly and they provide 2 different navigation bars up on the top.  This confused the heck out of me.</p>
 </article>
 <br>
 
+<div id="cost">
   <i><b>Sample pricing (All inclusive rate)</b></i>
   <ul>
     <li>San Francisco to SFO = $68</li>
-    <li>San Francisco to OAK = $93</li>
-    <li>San Francisco to SJC = $123</li>
-    <li>San Francisco to San Carlos = $103</li>
+    <li class="bold">San Francisco to OAK = $93</li>
+    <li class="italic">San Francisco to SJC = $123</li>
+    <li class="purple">San Francisco to San Carlos = $103</li>
   </ul>
+  </div>
 
 
 <p><b><i><br><br>
@@ -47,11 +51,11 @@
 
 
 
-<form action="https://httpbin.org/post" method="post">
+<form id="name_form" action="https://httpbin.org/post" method="post">
   First name:<br>
-  <input type="text" name="firstname" value=""><br>
+  <input type="text" name="firstname" value="hello"><br>
   Last name:<br>
-  <input type="text" name="lastname" value=""><br><br>
+  <input type="text" name="lastname" value="world"><br><br>
 
   Please select the type of vehicle <br>
   <input type="radio" name="vehicle_type" value="SUV" checked> SUV<br>
@@ -65,13 +69,10 @@ Talk to me
 <br><br><input type="submit">
 
 </form>
-
-
-
-
+</main>
 
 <br><br><br><br><br>
-<footer>
+<footer id="foot">
   <p>Posted by: Tony Wu</p>
   <p>Contact information: <a href="mailto:tonycwu888@gmail.com">
   tonycwu888@gmail.com</a>.</p>

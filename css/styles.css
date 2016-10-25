@@ -57,7 +57,7 @@ main {
 }
 
 article#art1 {
-  background-image: url(ggb.jpg);
+  background-image: url(../images/ggb.jpg);
   border: 5px solid black;
   color: white;
   padding: 10px;
